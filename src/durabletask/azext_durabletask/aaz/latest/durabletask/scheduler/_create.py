@@ -18,7 +18,7 @@ class Create(AAZCommand):
     """Create a Scheduler
 
     :example: Create a scheduler in eastus
-        az durabletask scheduler create --resource-group testrg --scheduler-name testscheduler --location eastus --ip-allowlist "[0.0.0.0/0]" --sku-capacity 1, --sku-name "Dedicated" --tags "{}"
+        az durabletask scheduler create --resource-group testrg --scheduler-name testscheduler --location eastus --ip-allowlist "[0.0.0.0/0]" --sku-capacity 1 --sku-name "Dedicated" --tags "{}"
     """
 
     _aaz_info = {
